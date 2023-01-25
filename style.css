@@ -1,0 +1,142 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    color: rgb(248, 26, 92);
+    font-family: 'Lobster',cursive;
+}
+
+.navbar-brand:hover {
+    color: red;
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    border: 2px solid rgb(248, 26, 92);
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    border: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.main{
+    background: url("./img/lum3n-RYqO8DhPg68-unsplash.jpg") no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    /* background-position: 50% 50%; */
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    /* outline: none; */
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+h1{
+    font-weight: 700;
+}
+
+.product-img{
+    height: 200px;
+    width: 150px;
+}
+
+.card:hover{
+box-shadow: 10px 12px 5px -1px rgba(0,0,0,0.4);
+-webkit-box-shadow: 10px 12px 5px -1px rgba(0,0,0,0.4);
+-moz-box-shadow: 10px 12px 5px -1px rgba(0,0,0,0.4);
+transition: 0.5s;
+}
+
+.about-img{
+    height: 250px;
+    width: 400px;
+}
+
+.apple{
+    background: url("https://images.unsplash.com/photo-1558364014-c8649e95f18a?ixlib=rb-4.0.3&dl=mae-mu-yOVltxVbRHA-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb") no-repeat;
+    background-size: cover;
+    height: 90vh;
+    /* background-position: 50% 50%; */
+    width: 100%;
+    
+}
+.apple  h1{
+    font-family: 'Lobster',cursive;
+}
+.form-control{
+    height: 40px;
+    width: 70%;
+    border: 1px solid black;
+}
+.news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.news input{
+    height: 45px;
+    width: 55%;
+    color: white;
+    background:black;
+    margin-top: px;
+    border: 2px solid white;
+    font-weight: 600;
+    outline: none;
+}
+.news p{
+    margin: 0px;
+}
+.fa-brands{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+@media(max-width:)
